@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 80px;
+    background-image: url(sabrina.jpg);
+}
+header{
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 30px;
+    font-family: import 'package:google_fonts/google_fonts.dart';
+    color:black;
+    margin-bottom: 250px;
+    background-image:url(blu.jpg);
+}
+
+.wa-button {
+      display: inline-flex;
+      align-items: center;
+      background-color:aqua;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 50px;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    
+    }
+    .wa-button{
+         margin-right: 10px;
+      font-size: 20px;
+    }
+
+     
+
+.informasi{
+  max-width: 600px;       
+  line-height: 1.6;    
+  text-align: justify;    
+  margin: 20px auto;      
+  font-size: 20px;   
+  margin-bottom: 200px;  
+  background-image:url(blu.jpg) ;  
+}
+
+
+
+.fitur{
+ 
+  max-width: 700px;     
+  line-height: 1.6;      
+  text-align: justify; 
+  padding: 20px;   
+  margin: 20px auto;     
+  font-size: 16px;       
+  margin-bottom: 350px;
+  box-sizing: 90px;
+  background-image:url(blu.jpg) ;
+  
+}
+
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+margin: 0;
+  padding-left: 20px;
+    margin: 2px 0;      
+  padding: 0;
+  line-height: 1.4;     
+  list-style-type: disc; 
+  column-gap: normal;
+  box-sizing: content-box;
+  margin-bottom: 300px;
+  background-image:url(blu.jpg) ;
+  background-size: auto;
+  
+}
+
+ .level-box {
+    margin-bottom: 40px;
+    padding: 20px;        
+    background: lightskyblue;    
+    border-radius: 8px;  
+  }
+
+
+.kontak{
+    padding: 30px ;
+    text-align: center;
+    font-size: 15px;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+    
+
+}
